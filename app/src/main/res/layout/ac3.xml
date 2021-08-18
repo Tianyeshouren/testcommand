@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+<com.example.netested.view.MYLL
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.netested.view.MytextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_200"
+        />
+    <com.example.netested.view.MytextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="32131414354325"
+        android:background="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kjjjjj"/>
+
+
+
+</com.example.netested.view.MYLL>
+
+</LinearLayout>

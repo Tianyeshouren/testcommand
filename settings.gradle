@@ -1,0 +1,6 @@
+rootProject.name = "netested"
+
+include ':ccc:eee:modulea'
+include ':ccc:app'
+project(':ccc:eee:modulea').projectDir = file("aaa/bbb/modulea")
+project(':ccc:app').projectDir = file("app")

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <com.example.netested.view.MytextView
+        android:id="@+id/mtv"
+        android:layout_width="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:text="100"/>
+    <Button
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rc嵌套"/>
+    <Button
+    android:id="@+id/fragment2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ns嵌套rv"/>
+    <Button
+        android:id="@+id/fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万能布局"/>
+    <Button
+        android:id="@+id/ac1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="coord 滑"/>
+    <Button
+        android:id="@+id/ac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="两个rcv嵌套"/>
+    <Button
+        android:id="@+id/ac3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试画布"/>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>
